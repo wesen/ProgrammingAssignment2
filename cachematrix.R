@@ -4,7 +4,7 @@
 #' This works in conjunction with `cacheSolve`
 #' 
 #' @example 
-#' m = makeCacheMatrix()
+#' m = makeCacheMatrix(diag(5))
 #' inv_m = cacheSolve(m)
 #' 
 #' @return an object that stores a matrix and potentially its inverse
